@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitchtv-Viewer</title>
+    <link rel="stylesheet" href="styles/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css" media="screen" title="no title">
+  </head>
+  <body>
+    <section id="main-container" class="container">
+      <section id="top-row" class="row">
+        <section class="col-md-4 top-col" >
+          <h3>All</h3>
+        </section>
+        <section class="col-md-4 top-col" >
+          <h3>Online</h3>
+        </section>
+        <section class="col-md-4 top-col" >
+          <h3>Offline</h3>
+        </section>
+      </section>
+      <section class="row">
+        <section id="search-row" class="col-md-12">
+          <section id="search-form">
+            <form class="input" action="index.html" method="post">
+              <input id="input" onkeypress="keyboardPress(event)" type="text" class="form-control" placeholder="Search Twitch Streams"></input>
+            </form>
+          </section>
+        </section>
+      </section>
+      <section id="displaArea" class="row">
+        <section id="logo" class="col-md-2">
+          <!-- <iframe
+              src="http://player.twitch.tv/?channel={ESL_SC2}"
+              scrolling="no"
+              allowfullscreen="true">
+          </iframe>
+          <iframe
+              src="http://player.twitch.tv/?channel={OgamingSC2}"
+              scrolling="no"
+              allowfullscreen="true">
+          </iframe>
+          <iframe
+              src="http://player.twitch.tv/?channel={cretetion}"
+              scrolling="no"
+              allowfullscreen="true">
+          </iframe>
+          <iframe
+              src="http://player.twitch.tv/?channel={freecodecamp}"
+              scrolling="no"
+              allowfullscreen="true">
+          </iframe> -->
+        </section>
+        <section id="streamer" class="col-md-5">
+
+        </section>
+        <section id="details" class="col-md-6">
+
+        </section>
+      </section>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
